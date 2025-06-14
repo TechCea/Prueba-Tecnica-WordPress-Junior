@@ -484,7 +484,7 @@ header {
 
 .old-price {
     text-decoration: line-through;
-    color: var(--lightgray);
+    color: lightgray;
     font-size: 0.9rem;
     margin-left: 10px;
 }
@@ -566,7 +566,7 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    color: var(--lightgray);
+    color: white;
 }
 
 .contact-info i {
@@ -691,7 +691,7 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 0.8rem;
-    color: var(--lightgray);
+    color: white;
 }
 
 .spec-icon {
@@ -759,7 +759,7 @@ header {
     padding: 10px 20px;
     background: none;
     border: none;
-    color: var(--lightgray);
+    color: white;
     cursor: pointer;
     position: relative;
 }
