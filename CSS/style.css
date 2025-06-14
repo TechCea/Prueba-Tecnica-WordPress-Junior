@@ -391,7 +391,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('IMG/photo-1518770660439-4636190af475.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../IMG/photo-1518770660439-4636190af475.jpg');
     background-size: cover;
     background-position: center;
     margin-bottom: 3rem;
