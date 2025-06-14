@@ -15,13 +15,13 @@
         <nav class="navbar glass">
             <span class="closeMenu"><i class="fa-solid fa-xmark"></i></span>
             <ul class="menu">
-                <li class="navbar-item"><a href="#Home" class="a scroll active" id="nav-home">Inicio</a></li>
+                <li class="navbar-item"><a href="/index.html" class="a scroll active" id="nav-home">Inicio</a></li>
                 <span class="divider">•</span>
-                <li class="navbar-item"><a href="#Projects" class="a scroll" id="nav-projects">Acerca de Nosotros</a></li>
+                <li class="navbar-item"><a href="/HTML/About.html" class="a scroll" id="nav-projects">Acerca de Nosotros</a></li>
                 <span class="divider">•</span>
-                <li class="navbar-item"><a href="#About" class="a scroll" id="nav-about">Contacto</a></li>
+                <li class="navbar-item"><a href="/HTML/contact.html" class="a scroll" id="nav-about">Contacto</a></li>
                 <span class="divider">•</span>
-                <li class="navbar-item"><a href="#Contact" class="a scroll" id="nav-contact">Productos</a></li>
+                <li class="navbar-item"><a href="/HTML/products.html" class="a scroll" id="nav-contact">Productos</a></li>
                 <span class="divider">•</span>
                 <li class="navbar-item">
                     <button id="theme-toggle" class="theme-toggle-B">
@@ -32,8 +32,99 @@
         </nav>
     </header>
 
-    
+    <section class="hero-section">
+        <h1 class="hero-title">Bienvenido a TechShop</h1>
+        <p class="hero-subtitle">Los mejores equipos tecnológicos al mejor precio</p>
+        <a href="products.html" class="btn">Ver Productos</a>
+    </section>
 
-</body>
+    <main class="main-container">
+        <section>
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="/IMG/laptop.jpg" alt="Laptop" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Laptop UltraSlim</h3>
+                        <p class="product-desc">Potente laptop con procesador de última generación y pantalla 4K.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$1,199</span>
+                                <span class="old-price">$1,499</span>
+                            </div>
+                            <a href="product-detail.html" class="btn btn-sm">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/IMG/audifonos.jpg" alt="Audífonos" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Audífonos Pro</h3>
+                        <p class="product-desc">Sonido de alta fidelidad con cancelación de ruido activa.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$249</span>
+                            </div>
+                            <a href="product-detail.html" class="btn btn-sm">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/IMG/reloj.jpg" alt="Smartwatch" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-title">Smartwatch X</h3>
+                        <p class="product-desc">Monitoriza tu salud y mantente conectado con este reloj inteligente.</p>
+                        <div class="product-price">
+                            <div>
+                                <span class="price">$199</span>
+                            </div>
+                            <a href="product-detail.html" class="btn btn-sm">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="products.html" class="btn">Ver Todos los Productos</a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="main-container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">TechShop</h3>
+                    <p>Tu tienda de confianza para equipos tecnológicos de última generación.</p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Inicio</a>
+                        <a href="products.html">Productos</a>
+                        <a href="about.html">Nosotros</a>
+                        <a href="contact.html">Contacto</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-title">Contacto</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Tecnológica 123, Ciudad</p>
+                        <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                        <p><i class="fas fa-envelope"></i> info@techshop.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 TechShop. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    
 <script src="JS/main.js"></script>
+</body>
+
 </html>
